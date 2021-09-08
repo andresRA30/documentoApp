@@ -29,7 +29,7 @@ export class CrearDocumentoComponent implements OnInit {
     console.log(this.documentoForm.value)
     this.documentoService.crearDocumento(this.documentoForm.value)
       .subscribe(resp => {
-        console.log(resp)
+
         this.router.navigateByUrl('home')
       })
   }
