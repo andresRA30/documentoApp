@@ -1,27 +1,27 @@
 {
     "documentos": [{
             "id": "1",
-            "alias": "Tarea",
+            "alias": "SOEFE",
             "tipo": "Contrato",
-            "fechaCreacion": "2021-09-08T17:46:33.787Z"
+            "fechaCreacion": "2020-09-08T20:03:00.838Z"
         },
         {
             "id": "2",
-            "alias": "Tareas",
-            "tipo": "Carta",
-            "fechaCreacion": "2021-09-08T17:19:30.931Z"
+            "alias": "Matematicas",
+            "tipo": "Examen",
+            "fechaCreacion": "2020-09-08T20:03:22.140Z"
         },
         {
             "id": "3",
-            "alias": "Tareas",
-            "tipo": "Carta",
-            "fechaCreacion": "2021-09-08T19:29:30.037Z"
+            "alias": "Tarea",
+            "tipo": "Ensayo",
+            "fechaCreacion": "2020-09-08T20:03:55.045Z"
         },
         {
             "id": "4",
             "alias": "Declaracion juradas",
             "tipo": "Carta",
-            "fechaCreacion": "2021-09-08T17:45:21.150Z"
+            "fechaCreacion": "2020-09-08T17:45:21.150Z"
         },
         {
             "id": "_dzeifzvi9",
@@ -34,6 +34,12 @@
             "alias": "nuevo documento",
             "tipo": "Carta",
             "fechaCreacion": "2021-09-08T19:13:40.746Z"
+        },
+        {
+            "id": "_ijl191h3i",
+            "alias": "AMAZON",
+            "tipo": "Contrato",
+            "fechaCreacion": "2021-09-08T20:04:35.250Z"
         }
     ]
 }
