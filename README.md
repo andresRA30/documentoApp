@@ -4,7 +4,7 @@
 
 ###### npm i
 
-##JSON-SERVER
+## JSON-SERVER
 
 ###### npm i json-server
 
