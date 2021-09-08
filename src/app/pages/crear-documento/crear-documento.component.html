@@ -1,0 +1,23 @@
+<h1>Crear nuevo documento</h1>
+<hr>
+<div class="card shadow">
+    <div class="card-body">
+        <form [formGroup]="documentoForm" (ngSubmit)="crear()">
+            <div class="mb-3">
+                <label class="form-label">Alias</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="alias">
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tipo</label>
+                <select class="form-select" formControlName="tipo">
+                    <option selected value="">--Seleccionar tipo--</option>
+                    <option *ngFor="let item of tipos; let i = index">
+                        {{item|titlecase}}</option>
+                </select>
+            </div>
+
+            <button [disabled]="documentoForm.invalid" type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>

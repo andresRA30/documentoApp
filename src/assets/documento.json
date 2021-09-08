@@ -1,0 +1,25 @@
+ [{
+         "documentoId": "1",
+         "alias": "SOEFE",
+         "tipo": "Contrato",
+         "fechaCreacion": "20/11/2020"
+     },
+     {
+         "documentoId": "2",
+         "alias": "Matemáticas",
+         "tipo": "Examen",
+         "fechaCreacion": "20/11/2020"
+     },
+     {
+         "documentoId": "3",
+         "alias": "Declaracion jurada",
+         "tipo": "Carta",
+         "fechaCreacion": "20/11/2020"
+     },
+     {
+         "documentoId": "4",
+         "alias": "Tarea",
+         "tipo": "Ensayo",
+         "fechaCreacion": "20/11/2020"
+     }
+ ]
