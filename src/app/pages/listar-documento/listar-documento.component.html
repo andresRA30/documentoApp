@@ -19,7 +19,7 @@
     <tbody>
         <tr *ngFor="let item of documentos" (click)="editar(item.id)" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <th scope="row">{{item.id}}</th>
-            <td>{{item.alias}}</td>
+            <td>{{item.alias|titlecase}}</td>
             <td *ngIf="item.tipo === 'Contrato'" class="bg-warning">{{item.tipo}}</td>
             <td *ngIf="item.tipo === 'Carta'" class="bg-info">{{item.tipo}}</td>
             <td *ngIf="item.tipo !== 'Contrato' && item.tipo !== 'Carta'">{{item.tipo}}</td>

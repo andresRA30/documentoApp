@@ -27,8 +27,7 @@ export class ListarDocumentoComponent implements OnInit {
     this.documentoService.getDocumento(id).subscribe(documento => {
       this.documento = documento;
     })
-    this.documento = this.documentos.find(({ id }) => id === id)
-    console.log(this.documento)
+
   }
   editarDocumento(event: any) {
     console.log(event)
