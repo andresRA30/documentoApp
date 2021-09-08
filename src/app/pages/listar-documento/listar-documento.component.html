@@ -4,7 +4,7 @@
 
     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" (keyup.enter)="buscar($event)">
 </div>
-<div *ngIf="cargando" class="spinner-border" role="status">
+<div *ngIf="cargando" class="spinner-border position-absolute top-30 start-50 " role="status">
     <span class="visually-hidden">Loading...</span>
 </div>
 <table *ngIf="!cargando" class="table table-dark table-hover">
