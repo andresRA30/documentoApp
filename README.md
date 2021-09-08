@@ -1,3 +1,21 @@
+# Instalaciones
+
+## NPM
+
+###### npm i
+
+##JSON-SERVER
+
+###### npm i json-server
+
+# Como Usar
+
+## Levantar la base de datos de JSON
+
+###### ir a cd ..src\assets
+
+###### y ejecutar: json-server --watch db.json
+
 # Entrevista
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
